@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keefer Law Firm</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: { extend: {} },
+      };
+    </script> 
+  </head>
+  <body class="m-0 bg-[#d9d9d9] text-[#333]">
+    <main
+      class="mx-auto min-h-screen w-full max-w-[1536px] bg-white shadow-[0_0_14px_rgba(0,0,0,.55)]"
+    >
+      <!-- Header -->
+      <header
+        class="h-[110px] md:h-[110px] xl:h-[110px] 2xl:w-auto"
+      >
+        <div class="flex h-full items-center justify-between px-[28px]">
+          <img
+            src="./images/logo.png"
+            alt="Keefer Law Firm"
+            class="h-auto w-[390px] max-w-[52%] object-contain"
+          />
+          <div class="mr-[6px] text-right leading-none">
+            <p
+              class="sans mb-1 text-[18px] font-bold tracking-[2px] text-[#8b0b0b]"
+            >
+              CALL OUR OFFICES NOW!
+            </p>
+            <p
+              class="sans text-[35px] font-extrabold leading-[31px] text-[#222]"
+            >
+              540.433.6906
+            </p>
+            <p
+              class="sans mt-1 text-[15px] font-bold tracking-[.5px] text-[#333]"
+            >
+              Get Your Questions Answered Fast
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <!-- Navigation -->
+      <nav
+        class="desktop-nav h-[42px] bg-[#8d0000] shadow-[inset_0_1px_0_rgba(255,255,255,.12)]"
+      >
+        <ul class="mx-0 flex h-full justify-end pr-[28px]">
+          <li>
+            <a
+              class="sans flex h-full items-center bg-[#8d0000]   px-[16px] text-[14px] font-bold tracking-[.4px] text-white  hover:bg-[#a3a1a1]"
+              href="#"
+              >HOME</a
+            >
+          </li>
+          <li>
+            <a
+              class="sans flex h-full items-center px-[15px] text-[14px] font-bold tracking-[.4px] text-white bg-[#8d0000]  hover:bg-[#a3a1a1]"
+              href="#"
+              >BIOGRAPHY</a
+            >
+          </li>
+          <li>
+            <a
+              class="sans flex h-full items-center px-[15px] text-[14px] font-bold tracking-[.4px] text-white hover:bg-[#a3a1a1]"
+              href="#"
+              >BLOG</a
+            >
+          </li>
+          <li>
+            <a
+              class="sans flex h-full items-center px-[15px] text-[14px] font-bold tracking-[.4px] text-white hover:bg-[#6f0000]  hover:bg-[#a3a1a1]"
+              href="#"
+              >AREAS WE SERVE</a
+            >
+          </li>
+          <li>
+            <a
+              class="sans flex h-full items-center px-[15px] text-[14px] font-bold tracking-[.4px] text-white hover:bg-[#6f0000]  hover:bg-[#a3a1a1]"
+              href="#"
+              >LIBRARY</a
+            >
+          </li>
+          <li>
+            <a
+              class="sans flex h-full items-center px-[15px] text-[14px] font-bold tracking-[.4px] text-white hover:bg-[#6f0000]  hover:bg-[#a3a1a1]"
+              href="#"
+              >CONTACT</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <nav
+        class="mobile-nav hidden min-h-[42px] items-center justify-between bg-[#8d0000] px-4"
+      >
+        <span class="sans text-sm font-bold text-white">MENU</span>
+        <img
+          src="./images/responsive_menu_icon.png"
+          class="h-8 w-8"
+          alt="menu"
+        />
+      </nav>
+      <!-- Hero -->
+      <section class="px-[27px] pt-[25px]">
+        <div class="grid grid-cols-1 gap-[14px] lg:grid-cols-[1.02fr_.82fr]">
+          <img
+            src="./images/gurantee_banner.gif"
+            alt="30 years experience"
+            class="h-auto w-full border border-[#ccc] shadow-[0_2px_7px_rgba(0,0,0,.35)]"
+          />
+          <div
+            class="min-h-[315px] border border-[#c4c4c4] bg-[url('./images/form_bg.jpg')] bg-cover bg-center p-[7px] shadow-[0_2px_7px_rgba(0,0,0,.35)]"
+          >
+            <div class="relative h-full">
+              <div class="flex items-center gap-2 bg-[#eee]/70">
+                <span
+                  class="bg-[#970000] px-2 py-[2px] text-[25px] font-bold leading-none text-white md:text-[25px] xl:text-[35px]  "
+                  >QUESTIONS?</span
+                >
+                <p
+                  class="sans text-[18px] font-bold leading-[19px] text-[#222] xl:text-[30px] xl:leading-[30px]"
+                >
+                  Have a <span class="text-[#0d3f66]">Question</span><br />About
+                  Your Case?
+                </p>
+              </div>
+              <p class="sans mt-[10px] text-[14px] leading-[16px] xl:text-[20px] xl:leading-[22px] ">
+                Enter your information and get your questions answered<br />quickly
+                and directly or call us at: <b>540.433.6906</b>
+              </p>
+              <div
+                class="mt-[7px] grid grid-cols-[55px_140px_1fr] items-center gap-x-2 gap-y-[5px] xl:gap-x-6"
+              >
+                <label class="sans text-[10px] font-bold xl:text-[20px] ">NAME:</label
+                ><input
+                  class="h-[20px] border border-[#aaa] bg-white xl:h-[30px] xl:w-[270px]"
+                  type="text"
+                /><img
+                  src="./images/confidential.png"
+                  class="row-span-3 ml-2 w-[145px] rotate-[10deg] xl:w-[180px] xl:ml-32"
+                  alt="confidential"
+                />
+                <label class="sans text-[10px] font-bold  xl:text-[20px]">EMAIL:</label
+                ><input
+                  class="h-[20px] border border-[#aaa] bg-white  xl:h-[30px] xl:w-[270px]"
+                  type="text"
+                />
+                <label class="sans text-[10px] font-bold  xl:text-[20px]">PHONE:</label
+                ><input
+                  class="h-[20px] border border-[#aaa] bg-white  xl:h-[30px] xl:w-[270px]"
+                  type="text"
+                />
+              </div>
+              <label
+                class="sans mt-[9px] block bg-white px-2 py-1 text-[12px] font-bold xl:text-[18px]"
+                >Tell us about your case here...</label
+              >
+              <textarea
+                class="sans block h-[57px] w-full resize-none border border-[#aaa] bg-white xl:h-[65px]"
+              ></textarea>
+              <div class="mt-[8px] flex items-center justify-between gap-2">
+                <span class="text-[11px] italic text-[#666] xl:text-[19px]"
+                  >100% Privacy Guaranteed</span
+                >
+                <button
+                  class=" flex sans gap-1 bg-[#ae0000] px-[12px] py-[2px] text-[14px] font-bold text-white shadow-[0_2px_4px_rgba(0,0,0,.4)] xl:text-[19px]"
+                >
+                  Ask Us About Your Case <span><img class="pt-[5px] xl:pt-[10px]" src="./images/bullet_white.gif" alt=""></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Three-column feature strip -->
+      <section
+        class="mx-[27px] mt-[35px] grid grid-cols-1 border-b border-[#ddd] pb-[28px] md:grid-cols-[1fr_1.1fr_1fr]"
+      >
+        <div class="border-r border-[#ddd] px-[20px] md:px-[18px]">
+          <h2 class="text-[20px] font-bold uppercase leading-[20px]">
+            CHARGED WITH <span class="text-[#8e1010]">DUI?</span>
+          </h2>
+          <h3 class="mt-[7px] text-[14px] font-bold text-[#8e1010]">
+            FREE CASE EVALUATION
+          </h3>
+          <div class="mt-[10px] flex items-center gap-4">
+            <p class="sans text-[13px] leading-[16px]">
+              Being charged with a DUI can be scary. Get the help you
+              deserve.<br /><br />Click here to let us know how we can help you
+              with your case.
+            </p>
+            <img
+              src="./images/paste_board.gif"
+              class="h-[90px] w-auto"
+              alt="case evaluation"
+            />
+          </div>
+          <div class="mt-[10px] text-right">
+            <button
+              class="sans bg-[#a90000] px-4 py-1 text-[11px] font-bold flex gap-1 text-white"
+            >
+              CLICK HERE <img  src="./images/bullet_white_lrg.png" alt="">
+            </button>
+          </div>
+        </div>
+
+        <div class="border-r border-[#ddd] px-[20px] md:px-[18px] xl:lg-[25px]">
+          <div
+            class="flex items-center justify-between border-b border-[#ddd] pb-[10px]"
+          >
+            <div>
+              <h2 class="text-[20px] font-bold uppercase">
+                LAW <span class="text-[#8e1010]">BLOG</span>
+              </h2>
+              <p class="sans text-[13px] leading-[15px]">
+                Learn more about<br />Virginia Traffic Laws.
+              </p>
+            </div>
+            <img src="./images/pic1.gif" class="w-[112px]" alt="law blog" />
+          </div>
+             <div class="mt-[3px] text-center">
+            <button
+              class=" flex gap-1 sans bg-[#a90000] px-2 justify-center ml-[150px]   py-1 text-[11px] font-bold text-white"
+            >
+              CLICK HERE <img src="./images/bullet_white.gif" alt="">
+            </button>
+          </div>
+          <div class="flex items-center justify-between pt-[10px]">
+            <div>
+              <h2 class="text-[20px] font-bold uppercase">
+                CASE <span class="text-[#8e1010]">RESULTS</span>
+              </h2>
+              <p class="sans text-[13px] leading-[15px]">
+                See how we help our clients.<br />Read our latest case results.
+              </p>
+            </div>
+            <img
+              src="./images/order_icon.gif"
+              class="w-[115px]"
+              alt="case results"
+            />
+          </div>
+          <div class="mt-[3px] text-center">
+      
+             <button
+              class=" flex gap-1 sans bg-[#a90000] px-2 justify-center ml-[150px]   py-1 text-[11px] font-bold text-white"
+            >
+              CLICK HERE <img src="./images/bullet_white.gif" alt="">
+            </button>
+          </div>
+        </div>
+
+        <div class="px-[20px] md:px-[18px] xl:px[25px]">
+          <div class="flex items-start gap-3">
+            <img
+              src="./images/avo_rating_large.gif"
+              class="w-[85px]"
+              alt="rating"
+            /><img
+              src="./images/national_college_large.gif"
+              class="w-[85px]"
+              alt="national college"
+            />
+          </div>
+          <h2 class="mt-[5px] text-[19px] font-bold uppercase leading-[19px]">
+            CERTIFICATES &amp;<br /><span class="text-[#8e1010]"
+              >CREDENTIALS</span
+            >
+          </h2>
+          <p class="sans mt-[5px] text-[13px] leading-[16px]">
+            Keefer Law Firm has protected the rights of Virginians for over 30
+            years.
+          </p>
+          <div class="mt-[8px] text-right">
+            <button
+              class=" flex gap-1 sans bg-[#a90000] px-3 py-1 text-[11px] font-bold text-white"
+            >
+              LEARN MORE <img src="./images/bullet_white.gif" alt="">
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Main content -->
+      <section
+        class="mx-[27px] grid grid-cols-1 gap-[30px] border-b border-[#ddd] py-[30px] lg:grid-cols-[205px_1fr_160px]"
+      >
+        <aside>
+          <h2 class="text-[20px] font-bold uppercase">
+            PRACTICE <span class="text-[#8e1010]">AREAS</span>
+          </h2>
+          <div class="mt-[8px] space-y-[10px]">
+            <a
+              class="sans block border-l-[6px] border-[#8d0000] bg-[#888] px-[10px] py-[8px] text-[16px] font-bold text-white shadow-[0_2px_4px_rgba(0,0,0,.25)]"
+              href="#"
+              >DUI &amp; DWI
+              <span class="float-right text-[11px]">LEARN MORE ▶</span></a
+            >
+            <a
+              class="sans block border-l-[6px] border-[#8d0000] bg-[#888] px-[10px] py-[8px] text-[16px] font-bold text-white shadow-[0_2px_4px_rgba(0,0,0,.25)]"
+              href="#"
+              >RECKLESS DRIVING
+              <span class="float-right text-[11px]">LEARN MORE ▶</span></a
+            >
+            <a
+              class="sans block border-l-[6px] border-[#8d0000] bg-[#888] px-[10px] py-[8px] text-[16px] font-bold text-white shadow-[0_2px_4px_rgba(0,0,0,.25)]"
+              href="#"
+              >SPEEDING TICKETS
+              <span class="float-right text-[11px]">LEARN MORE ▶</span></a>
+            <a
+              class="sans block border-l-[6px] border-[#8d0000] bg-[#888] px-[10px] py-[8px] text-[16px] font-bold text-white shadow-[0_2px_4px_rgba(0,0,0,.25)]"
+              href="#"
+              >TRAFFIC VIOLATIONS
+              <span class="float-right text-[11px]">LEARN MORE ▶</span></a
+            >
+          </div>
+          <h2 class="mt-[32px] text-[20px] font-bold uppercase">
+            LEARN <span class="text-[#8e1010]">MORE ABOUT</span>
+          </h2>
+          <p
+            class="mt-[45px] pl-[48px] text-[20px] font-bold leading-[27px] text-[#d2d2d2]"
+          >
+            MENU<br />AREA<br />HERE
+          </p>
+        </aside>
+
+        <article>
+          <h1 class="text-[22px] font-bold uppercase">
+            &lt;H1&gt;<span class="text-[#8e1010]">PAGE TITLE HERE</span>
+          </h1>
+          <p class="sans mt-[8px] text-[12px] leading-[23px] text-[#666]">
+            Asunt in anim uis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum. Alamo laboris nisi ut aliquip ex ea
+            commodo consequat. Aser velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            anim id est laborum. Asunt in anim uis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p class="sans mt-[2px] text-[12px] leading-[23px] text-[#666]">
+            Excepteur sint occaecat cupidatat non proident, sunt in anim id est
+            laborum. Alamo laboris nisi ut aliquip ex ea commodo consequat. Aser
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in anim id est laborum.
+          </p>
+        </article>
+
+        <aside class="space-y-[27px]">
+          <div>
+            <h2 class="text-[18px] font-bold uppercase leading-[18px]">
+              CLIENT <span class="text-[#8e1010]">TESTIMONIALS</span>
+            </h2>
+            <p class="sans text-[12px] leading-[15px]">
+              Read what others say<br />about Keefer Law Firm.
+            </p>
+            <div class="mt-[7px] border-t border-[#777] pt-[4px] text-right">
+              <button
+                class="sans bg-[#a90000] px-3 py-1 text-[10px] font-bold text-white"
+              >
+                CLICK HERE ▶
+              </button>
+            </div>
+          </div>
+          <div>
+            <h2 class="text-[18px] font-bold uppercase leading-[18px]">
+              DOWNLOAD <span class="text-[#8e1010]">FREE REPORTS</span>
+            </h2>
+            <p class="sans text-[12px] leading-[15px]">
+              Discover the Truth about<br />Virginia Law.
+            </p>
+            <div class="mt-[7px] border-t border-[#777] pt-[4px] text-right">
+              <button
+                class="sans bg-[#a90000] px-3 py-1 text-[10px] font-bold text-white"
+              >
+                CLICK HERE ▶
+              </button>
+            </div>
+          </div>
+          <div>
+            <h2 class="text-[18px] font-bold uppercase leading-[18px]">
+              CONTACT <span class="text-[#8e1010]">OUR OFFICES</span>
+            </h2>
+            <p class="sans text-[12px] leading-[15px]">
+              Get your questions<br />answered right now.
+            </p>
+            <div class="mt-[7px] border-t border-[#777] pt-[4px] text-right">
+              <button
+                class="sans bg-[#a90000] px-3 py-1 text-[10px] font-bold text-white"
+              >
+                CLICK HERE ▶
+              </button>
+            </div>
+          </div>
+          <div class="text-center">
+            <img
+              src="./images/avo_rating_large.gif"
+              class="mx-auto w-[105px]"
+              alt="rating"
+            /><img
+              src="./images/national_college_large.gif"
+              class="mx-auto mt-[12px] w-[100px]"
+              alt="member"
+            />
+          </div>
+          <div>
+            <h2 class="text-[18px] font-bold uppercase">
+              FOLLOW <span class="text-[#8e1010]">US</span>
+            </h2>
+            <div
+              class="mt-[8px] border-t border-[#777] pt-[8px] flex justify-start gap-2"
+            >
+              <img
+                src="./images/fb_icon.gif"
+                class="h-[29px] w-[30px]"
+                alt="facebook"
+              /><img
+                src="./images/google_icon.gif"
+                class="h-[29px] w-[29px]"
+                alt="google"
+              /><img
+                src="./images/twitter_icon.gif"
+                class="h-[29px] w-[29px]"
+                alt="twitter"
+              /><img
+                src="./images/linked_icon.gif"
+                class="h-[29px] w-[29px]"
+                alt="linkedin"
+              />
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <footer
+        class="mt-0 h-[13px] border-t-[7px] border-[#8b0000] bg-[#333]"
+      ></footer>
+    </main>
+  </body>
+</html>
